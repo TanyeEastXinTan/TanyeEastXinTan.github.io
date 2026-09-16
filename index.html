@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="google-site-verification" content="eoPCGBBxDIK0Ff9Dk_dXsuHMTNzzSEZMbsfO4zriBK8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="keywords" content="Tanye Tan, Xin Tan, Data Engineer, Two Circles, Simon Fraser University, SFU">
+<meta name="keywords" content="Tanye Tan, Xin Tan, Data Engineer, Two Circles, Simon Fraser University, SFU, Jilin University">
 <meta name="description" content="Tanye (Xin) Tan — Data Engineer at Two Circles, building real-time and batch data platforms for sports & entertainment.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,13 +21,11 @@
       <li><a href="#about">About</a></li>
       <li><a href="#experience">Experience</a></li>
       <li><a href="#education">Education</a></li>
+      <li><a href="#recognition">Recognition</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
-    <div style="display:flex; align-items:center; gap:10px;">
-      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme"></button>
-      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">☰</button>
-    </div>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">☰</button>
   </div>
 </nav>
 
@@ -35,16 +33,15 @@
   <div class="wrap">
     <p class="eyebrow">Vancouver, BC · Open to relocation across Canada</p>
     <div class="hero-row">
-      <div class="monogram">XT</div>
+      <img class="avatar" src="./assets/images/me.jpg" alt="Tanye (Xin) Tan snowboarding">
       <div>
         <h1>Tanye (Xin) Tan</h1>
-        <p class="role">Data Engineer at <b>Two Circles</b> — sports &amp; entertainment data</p>
+        <p class="role">Data Engineer</p>
       </div>
     </div>
     <p class="lede">
-      I build the pipelines and data models behind analytics for sports and entertainment
-      clients — real-time ingestion, dbt-modeled warehouses, and the infrastructure that lets
-      other teams move fast without thinking about the plumbing underneath.
+      I build data pipelines and infrastructure for sports and entertainment analytics, and
+      spend a good chunk of my free time down the AI/ML rabbit hole.
     </p>
     <div class="cta-row">
       <a class="btn primary" href="#experience">View experience</a>
@@ -75,20 +72,18 @@
       <div class="rule"></div>
     </div>
     <p>
-      I'm a data engineer at <a class="inline-link" href="https://www.twocircles.com/" target="_blank" rel="noopener">Two Circles</a>,
-      a data and marketing consultancy for sports and entertainment organisations. My work spans
-      real-time event pipelines, the dbt models that turn raw client data into something teams can
-      actually query, and being the engineer in the room when a client-facing project needs a
-      technical translator.
+      AI and machine learning are what I nerd out on in my free time — reading papers, poking at
+      models, trying to actually understand how things work instead of just using them.
     </p>
     <p>
-      Before this I worked on ETL and analytics infrastructure at Samsung R&amp;D Canada, and spent
-      a summer applying deep learning to iPhone manufacturing at Apple in Suzhou. I did my Master's
-      in Computer Science at Simon Fraser University, focused on big data systems.
+      By trade I'm a data engineer, with close to three years in now across a few companies,
+      currently building data infrastructure for a sports and entertainment analytics team. I've
+      got a Master's in Computer Science from Simon Fraser University, and I can also claim FAANG
+      alumni status — I spent a summer at Apple before grad school.
     </p>
     <p>
-      Originally from Guangzhou, now based in Vancouver — usually on a tennis court or a mountain
-      when I'm away from a keyboard.
+      I'm Cantonese, based in Vancouver, and try to keep things balanced outside of work — tennis,
+      snowboarding, pretty much anything that gets me outdoors.
     </p>
 
     <div class="skills">
@@ -129,7 +124,7 @@
     </div>
 
     <div class="job">
-      <div class="job-logo" style="display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:13px;color:var(--accent);background:var(--bg-elevated);">2C</div>
+      <img class="job-logo" src="./assets/images/logo/LogoWebLarge_TWO-CIRCLES.jpg" alt="Two Circles logo" onerror="this.style.display='none'">
       <div>
         <div class="job-head">
           <h3 class="job-title">Data Engineer <span>· Two Circles</span></h3>
@@ -146,13 +141,13 @@
     </div>
 
     <div class="job">
-      <img class="job-logo" src="./assets/images/logo/samsung.png" alt="Samsung logo" onerror="this.style.display='none'">
+      <img class="job-logo" src="./assets/images/logo/samsung-logo-new.png" alt="Samsung logo" onerror="this.style.display='none'">
       <div>
         <div class="job-head">
           <h3 class="job-title">Data Engineer <span>· Samsung R&amp;D Canada</span></h3>
-          <span class="job-period">May 2024 — May 2025</span>
+          <span class="job-period">Apr 2024 — May 2025</span>
         </div>
-        <p class="job-loc">Vancouver, Canada · contract, then co-op</p>
+        <p class="job-loc">Vancouver, Canada · co-op, then contract</p>
         <ul>
           <li>Built and maintained ETL pipelines in Airflow (Python, SQL, PySpark) across BigQuery, Redshift, and other AWS services.</li>
           <li>Automated data ingestion, CI/CD, and user-management workflows; delivered KPIs supporting both B2B and B2C analytics.</li>
@@ -170,6 +165,7 @@
         <p class="job-loc">Suzhou, China</p>
         <ul>
           <li>Applied deep learning to optimize iPhone 15 manufacturing, from data collection to model training and on-device deployment.</li>
+          <li>Built a Tableau dashboard for real-time monitoring of production-capacity metrics.</li>
           <li>Maintained the team's internal site and worked directly with manufacturing vendors across several factories.</li>
         </ul>
       </div>
@@ -185,6 +181,7 @@
         <p class="job-loc">Shenzhen, China</p>
         <ul>
           <li>Used SQL/Python to process urban datasets — transportation, GDP, consumer spend — for retail site-selection analysis.</li>
+          <li>Ran statistical analysis on the DataArts Studio cloud platform (Hive/Presto).</li>
         </ul>
       </div>
     </div>
@@ -193,12 +190,41 @@
       <img class="job-logo" src="./assets/images/logo/dal.png" alt="Dalhousie logo" onerror="this.style.display='none'">
       <div>
         <div class="job-head">
-          <h3 class="job-title">Research Intern <span>· Dalhousie University</span></h3>
+          <h3 class="job-title">Research Assistant <span>· Dalhousie University</span></h3>
           <span class="job-period">Jul 2022 — Oct 2022</span>
         </div>
-        <p class="job-loc">Halifax, Canada · Mitacs Globalink Research Internship</p>
+        <p class="job-loc">Halifax, Canada · Mitacs Globalink Research Internship · Data Analytics for Clean Water Technologies</p>
         <ul>
-          <li>Studied the effect of water-quality indexes on wastewater plant performance in R, and shipped an R Shiny dashboard for the lab.</li>
+          <li>Studied the effect of water-quality indexes on wastewater plant performance in R.</li>
+          <li>Built an R Shiny + HTML dashboard for water-treatment-focused projects.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="job">
+      <img class="job-logo" src="./assets/images/logo/ncsu.png" alt="NCSU logo" onerror="this.style.display='none'">
+      <div>
+        <div class="job-head">
+          <h3 class="job-title">Winter Research Program <span>· North Carolina State University</span></h3>
+          <span class="job-period">Jan 2022 — Feb 2022</span>
+        </div>
+        <p class="job-loc">Raleigh, USA · Netflix Prize Movie Ratings Prediction</p>
+        <ul>
+          <li>Used Model-based Collaborative Filtering as a baseline and explored GNN-based methods to improve movie-rating predictions on the Netflix dataset.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="job">
+      <img class="job-logo" src="./assets/images/logo/jlu.jpg" alt="Jilin University logo" onerror="this.style.display='none'">
+      <div>
+        <div class="job-head">
+          <h3 class="job-title">Research Assistant <span>· Jilin University</span></h3>
+          <span class="job-period">Jan 2022 — Feb 2022</span>
+        </div>
+        <p class="job-loc">Changchun, China · Intelligence-control software for sandstone-type uranium mining</p>
+        <ul>
+          <li>Used well-logging data from a mining company to develop an LSTM model for lithology identification and ore-grade prediction in deep formations.</li>
         </ul>
       </div>
     </div>
@@ -217,35 +243,105 @@
       <img src="./assets/images/logo/SFU.png" alt="SFU logo" onerror="this.style.display='none'">
       <div>
         <h3>Simon Fraser University <span class="period">· Sep 2023 – May 2025</span></h3>
-        <p>MSc, Professional Computer Science (Big Data track) · Mitacs Globalink Scholarship ($15,000)</p>
+        <p>MSc, Professional Computer Science (Big Data track) · includes an 8-month co-op · Mitacs Globalink Graduate Fellowship ($15,000)</p>
       </div>
     </div>
 
     <div class="edu">
       <img src="./assets/images/logo/jlu.jpg" alt="Jilin University logo" onerror="this.style.display='none'">
       <div>
-        <h3>Jilin University <span class="period">· Sep 2019 – Jun 2023</span></h3>
-        <p>B.Sc. Computer Science and Technology &amp; B.Eng. Environmental Engineering</p>
+        <h3>Jilin University <span class="period">· Sep 2019 – Jul 2023</span></h3>
+        <p>B.Sc. Computer Science and Technology (2021–2023) &amp; B.Eng. Environmental Engineering (2019–2021)</p>
       </div>
     </div>
 
-    <div class="section-head" style="margin-top:36px;">
+    <div class="edu">
+      <img src="./assets/images/logo/regentspark.png" alt="University of Oxford logo" onerror="this.style.display='none'">
+      <div>
+        <h3>University of Oxford <span class="period">· Jan 2020 – Feb 2020</span></h3>
+        <p>Exchange Student, Oxford Prospect Programme, Regent's Park College · Best Presentation Award (4/30)</p>
+      </div>
+    </div>
+
+    <div class="edu">
+      <img src="./assets/images/logo/erzhong.png" alt="Guangzhou No.2 High School logo" onerror="this.style.display='none'">
+      <div>
+        <h3>Guangzhou No.2 High School <span class="period">· Sep 2016 – Jul 2019</span></h3>
+        <p>High School Diploma, Science</p>
+      </div>
+    </div>
+
+    <div class="subhead">Patent</div>
+    <div class="patent">
+      <img src="./assets/images/project/rl_mcdpr.jpg" alt="Groundwater-level measurement device">
+      <div>
+        <h3>A Semi-automatic Digital Measurement Device for Groundwater Level</h3>
+        <p>Ying Lu, Yang Xu, <b>Xin Tan</b>, Chengyan Wen, Zhiyu Jiao</p>
+        <p class="meta">China Patent ZL 2021 1 0875594.0 · Filed Jul 2021 — Issued Sep 2022</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="recognition">
+  <div class="wrap reveal">
+    <div class="section-head">
+      <span class="index">04</span>
       <h2>Recognition</h2>
       <div class="rule"></div>
     </div>
-    <ul class="recognition">
-      <li>Company Hackathon Winner — Two Circles, 2025</li>
-      <li>Co-inventor, semi-automatic digital groundwater-level measurement device — China Patent ZL 2021 1 0875594.0</li>
-      <li>Mitacs Globalink Scholarship — $15,000</li>
-      <li>Honorable Mention (top 21%), Mathematical Contest in Modeling</li>
+
+    <div class="subhead">Honors &amp; awards</div>
+    <ul class="list">
+      <li>Company Hackathon Winner — Two Circles <span class="meta">· 2025</span></li>
+      <li><a class="inline-link" href="https://www.mitacs.ca/en/programs/globalink/globalink-research-internship" target="_blank" rel="noopener">Mitacs Globalink</a> Scholarship, <a class="inline-link" href="https://www.csc.edu.cn/chuguo/s/2105" target="_blank" rel="noopener">Chinese Scholarship Council (CSC)</a> <span class="meta">· 2022</span></li>
+      <li><a class="inline-link" href="https://www.comap-math.com/mcm/2022Certs/2215606.pdf" target="_blank" rel="noopener">Honorable Mention</a> (top 21%), <a class="inline-link" href="https://www.comap.com/contests/mcm-icm" target="_blank" rel="noopener">Mathematical Contest in Modeling (MCM)</a> <span class="meta">· May 2022</span></li>
+      <li><a class="inline-link" href="https://cer.jlu.edu.cn/info/1049/4624.htm" target="_blank" rel="noopener">Outstanding Winner</a> (CNY10,000 prize), The National Undergraduate Hydraulic Innovation Design Competition <span class="meta">· Aug 2021</span></li>
+      <li>First Prize, The Provincial Undergraduate Physics Experiment Competition <span class="meta">· May 2021</span></li>
+      <li>Provincial Third Prize, The Contemporary Undergraduate Mathematical Contest in Modeling <span class="meta">· Nov 2020</span></li>
     </ul>
+
+    <div class="subhead">Social activities</div>
+    <ul class="list">
+      <li>Student Ambassador, <a class="inline-link" href="https://www.mitacs.ca/en" target="_blank" rel="noopener">Mitacs</a> Globalink Program <span class="meta">· Canada, Feb 2023 – Present</span></li>
+      <li>Student Member, JLU iOS Club — weekly Xcode workshops building mini games with Swift <span class="meta">· Changchun, Sep 2021 – Feb 2022</span></li>
+      <li>Student Member, JLU Study Abroad Association — co-authored the annual "Feiyue Handbook" on overseas Master's/PhD programs and held monthly info sessions <span class="meta">· Changchun, Jul 2020 – Jul 2021</span></li>
+      <li>Assistant, <a class="inline-link" href="https://www.gzlib.org.cn/" target="_blank" rel="noopener">Guangzhou Library</a> — registered volunteer, Traditional Chinese translator <span class="meta">· Guangzhou</span></li>
+      <li>Student Volunteer during COVID-19 — helped manage distribution of food, water, and living supplies during full campus lockdown <span class="meta">· Changchun, Apr 2022 – Jun 2022</span></li>
+    </ul>
+
+    <div class="subhead">Miscellaneous</div>
+    <div class="misc-row">
+      <span class="skill-label">Friends</span>
+      <div class="friends-row">
+        <a href="https://wyatt-zhu.github.io" target="_blank" rel="noopener">Hongbo Zhu</a>&nbsp;·
+        <a href="https://jhakrraman.github.io" target="_blank" rel="noopener">Raman Jha</a>&nbsp;·
+        <a href="https://www.linkedin.com/in/rusali-saha-0409921a3/" target="_blank" rel="noopener">Rusali Saha</a>&nbsp;·
+        <a href="https://www.linkedin.com/in/sutirtha-roy-320586199/" target="_blank" rel="noopener">Sutirtha Roy</a>&nbsp;·
+        <a href="http://yeyuan.pro" target="_blank" rel="noopener">Ye Yuan</a>&nbsp;·
+        <a href="http://dmax13.ltd" target="_blank" rel="noopener">Zhendong Li</a>&nbsp;·
+        <a href="https://zhuowenzheng.github.io" target="_blank" rel="noopener">Zhuowen Zheng</a>
+      </div>
+    </div>
+    <div class="misc-row">
+      <span class="skill-label">Sports</span>
+      <span>Tandem skydiving (13,500 ft, Montreal) · tennis · snowboarding · skateboarding · surfing · hiking</span>
+    </div>
+    <div class="misc-row">
+      <span class="skill-label">Been to</span>
+      <span>Canada · United States · Singapore · United Kingdom · Hong Kong · Macau</span>
+    </div>
+    <div class="misc-row">
+      <span class="skill-label">Try this</span>
+      <span><a class="inline-link" href="https://www.albinoblacksheep.com/games/pearl" target="_blank" rel="noopener">Pearls Before Swine</a> — a small NIM game worth a coffee break</span>
+    </div>
   </div>
 </section>
 
 <section id="projects">
   <div class="wrap reveal">
     <div class="section-head">
-      <span class="index">04</span>
+      <span class="index">05</span>
       <h2>Projects</h2>
       <div class="rule"></div>
     </div>
@@ -264,7 +360,7 @@
 <section id="contact">
   <div class="wrap reveal">
     <div class="section-head">
-      <span class="index">05</span>
+      <span class="index">06</span>
       <h2>Contact</h2>
       <div class="rule"></div>
     </div>
@@ -278,8 +374,12 @@
 </section>
 
 <footer class="wrap">
-  <span>© <span id="year"></span> Tanye (Xin) Tan</span>
-  <span>Vancouver, BC</span>
+  <span>© <span id="year"></span> Tanye (Xin) Tan · Vancouver, BC</span>
+  <span>
+    <a href="https://www.easycounter.com/" style="color:var(--text-faint);">
+      <img src="https://www.easycounter.com/counter.php?xintan" alt="visitor count" style="vertical-align:middle;opacity:.6;">
+    </a>
+  </span>
 </footer>
 
 <script src="./assets/js/main.js"></script>
