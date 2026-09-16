@@ -451,6 +451,12 @@ section {
   color: var(--text-muted);
   font-size: 13.5px;
 }
+.edu p.meta {
+  margin-top: 4px;
+  font-family: var(--mono);
+  color: var(--text-faint);
+  font-size: 12px;
+}
 .edu .period {
   font-family: var(--mono);
   color: var(--text-faint);
