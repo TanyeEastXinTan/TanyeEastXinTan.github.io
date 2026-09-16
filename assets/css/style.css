@@ -585,6 +585,11 @@ section {
 
 footer {
   padding: 36px 0 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-row {
   color: var(--text-faint);
   font-family: var(--mono);
   font-size: 12px;
@@ -592,6 +597,14 @@ footer {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 10px;
+}
+.footer-globe {
+  display: flex;
+  justify-content: center;
+}
+.footer-globe img {
+  max-width: 200px;
+  opacity: 0.9;
 }
 
 /* ---------- scroll reveal ---------- */
