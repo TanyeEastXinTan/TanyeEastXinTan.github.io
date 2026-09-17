@@ -599,8 +599,11 @@ footer {
   gap: 10px;
 }
 .footer-globe {
-  display: flex;
-  justify-content: center;
+  width: 200px;
+  height: 220px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
 }
 .footer-globe img {
   max-width: 200px;
