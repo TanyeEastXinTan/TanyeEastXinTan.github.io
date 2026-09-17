@@ -599,15 +599,13 @@ footer {
   gap: 10px;
 }
 .footer-globe {
-  width: 200px;
-  height: 220px;
-  margin: 0 auto;
-  overflow: hidden;
-  position: relative;
+  display: flex;
+  justify-content: center;
 }
 .footer-globe img {
-  max-width: 200px;
-  opacity: 0.9;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  opacity: 0.95;
 }
 
 /* ---------- scroll reveal ---------- */

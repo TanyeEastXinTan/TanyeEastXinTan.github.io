@@ -35,24 +35,3 @@
   const el = document.getElementById("year");
   if (el) el.textContent = new Date().getFullYear();
 })();
-
-// MapMyVisitors renders its globe at full document width and keeps re-measuring
-// itself after load, so it has to be rescaled down to footer size repeatedly.
-(function () {
-  const TARGET_WIDTH = 200;
-  function shrinkGlobe() {
-    const outer = document.querySelector(".mmvst_outer");
-    const wrap = document.querySelector(".footer-globe");
-    if (!outer || !wrap) return;
-    outer.style.transform = "none";
-    const w = outer.offsetWidth;
-    const h = outer.offsetHeight;
-    if (!w || !h) return;
-    const scale = TARGET_WIDTH / w;
-    outer.style.transformOrigin = "top left";
-    outer.style.transform = "scale(" + scale + ")";
-    wrap.style.height = Math.round(h * scale) + "px";
-  }
-  [300, 1000, 2000, 4000].forEach((delay) => setTimeout(shrinkGlobe, delay));
-  window.addEventListener("resize", shrinkGlobe);
-})();
